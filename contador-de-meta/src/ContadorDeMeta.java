@@ -19,7 +19,7 @@ public class ContadorDeMeta {
 
                 
                     int media = meta / totalSerie;
-                    int totalPonto = totalSerie / 3;
+                    int totalPonto = media / 3;
 
         System.out.println("");
 
