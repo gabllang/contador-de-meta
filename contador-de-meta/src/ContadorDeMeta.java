@@ -13,7 +13,7 @@ public class ContadorDeMeta {
                 System.out.println("Quanto pretende fazer?");
                     int meta = scanner.nextInt();
 
-            if (meta > 601 ) {
+            if (meta > 600 || meta < 60 ) {
                 System.out.println("impossivel fazer essa pontuação");
             }   else {
 
@@ -25,9 +25,11 @@ public class ContadorDeMeta {
 
         System.out.println("se você deseja fazer " + meta + " você vai precisar fazer em media " + media + " pontos por serie, fazendo no minimo " + totalPonto +  " pontos por flecha." );
 
+         System.out.println("boa sorte!");
+
         }
 
-        System.out.println("boa sorte!");
+       
         System.out.println("");
 
         
